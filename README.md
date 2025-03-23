@@ -11,16 +11,3 @@ This is a real-time chatroom application built using Python sockets and multi-th
 ## Tech Stack
 - Python (Sockets, Threading)
 - Networking (TCP Communication)
-
-## Installation & Usage
-1. Clone the Repository
-git clone https://github.com/your-username/Chatroom-Server.git
-cd Chatroom-Server
-
-2. Run the Server
-python server.py
-
-3. Run Clients (Multiple Terminals for Multiple Users)
-python client.py
-
-Now, type messages in any client window and chat with others!
