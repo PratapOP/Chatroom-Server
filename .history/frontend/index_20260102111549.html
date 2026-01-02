@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>PulseChat</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- App Wrapper -->
+    <div class="app-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h1 class="logo">PulseChat</h1>
+            <p class="subtitle">Live • Secure • Real-time</p>
+
+            <div class="user-section">
+                <div class="avatar"></div>
+                <span class="username">You</span>
+                <span class="status online">Online</span>
+            </div>
+        </aside>
+
+        <!-- Chat Area -->
+        <main class="chat-area">
+
+            <!-- Header -->
+            <header class="chat-header">
+                <span class="room-name">Global Chat</span>
+                <span class="typing-indicator" id="typingIndicator">
+                    Someone is typing...
+                </span>
+            </header>
+
+            <!-- Messages -->
+            <section class="messages" id="messages">
+                <!-- Messages dynamically injected -->
+            </section>
+
+            <!-- Input Area -->
+            <footer class="chat-input">
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    placeholder="Type a message..."
+                    autocomplete="off"
+                />
+                <button id="sendBtn">
+                    Send
+                </button>
+            </footer>
+
+        </main>
+    </div>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+</html>
