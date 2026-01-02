@@ -1,5 +1,9 @@
 from database import db
+
 from werkzeug.security import generate_password_hash, check_password_hash
+
+# SQLAlchemy instance (shared with models)
+db = SQLAlchemy()
 
 # =========================
 # USER MODEL

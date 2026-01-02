@@ -1,9 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-# SQLAlchemy instance
-db = SQLAlchemy()
-
 # =========================
 # MESSAGE MODEL
 # =========================

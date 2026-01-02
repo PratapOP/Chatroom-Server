@@ -89,7 +89,7 @@ function sendMessage() {
 }
 
 /* =========================
-    TYPING INDICATOR
+   TYPING INDICATOR
 ========================= */
 
 let typingTimeout;
